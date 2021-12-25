@@ -1,4 +1,5 @@
 import numpy as np
+from seg_class import segment
 inds = [[100,120],[200,250]]
 data = np.zeros(shape = (5,500))
 labels = np.zeros(500)
